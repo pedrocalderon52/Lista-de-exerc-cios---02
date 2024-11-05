@@ -1,6 +1,6 @@
 
 # Lista de exercícios 02
-Códigos responsáveis por resolverem os 4 problemas da lista 02 da matéria "Linguagens e Técnicas de Programação", do professor Fábio Ramos, com o tema voltado para Orientação a Objetos.
+Códigos responsáveis por resolverem os 4 problemas da lista 02 da matéria "Linguagens e Técnicas de Programação", do professor Fábio Ramos, com o tema voltado para Orientação a Objetos. Feito por Lucas Oliveira de Carvalho Mendes, Isaac Lovisi e Pedro Calderón Nunes.
 
 ## 🛠️ Problemas
 
