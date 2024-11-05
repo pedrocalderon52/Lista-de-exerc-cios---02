@@ -4,7 +4,7 @@ class Pneu():
         self.pressao = pressao
         self.tamanho_sulco = 5.0
 
-    def statusa(self):
+    def status(self):
         if self.tamanho_sulco <= 1.6:
             print(f"Pneu está careca, troque-o. O tamanho é {self.tamanho}. A pressão é {self.pressao}")
         else: 
@@ -20,7 +20,7 @@ class Motor():
 
     def status(self):
         if self.oleo <= 1.8:
-            print(f"Precisa trocar o óleo. Nível: {self.oleo:.2f} litros. Ele tem {self.cilindros} cilindros. A potência é {self.potencia}")
+            print(f"Precisa trocar o óleo. Ele tem {self.cilindros} cilindros. A potência é {self.potencia}")
         else:
             print(f"Óleo ok. Nível: {self.oleo:.2f} litros. Ele tem {self.cilindros} cilindros. A potência é {self.potencia}")
 
@@ -32,8 +32,8 @@ class Veiculo(Pneu, Motor):
     
 
     def status(self):
-        super().status(self)
         Motor.status(self)
+        super().status()
 
 
     def andar(self, quilometros):
